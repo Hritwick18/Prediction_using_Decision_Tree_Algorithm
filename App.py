@@ -19,7 +19,7 @@ def classify(num):
 def main():
     
     html_temp = """
-   <div class="" style="background-color:blue;" >
+   <div class="" style="background-color:black;" >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:white;margin-top:10px;">Spark Foundation</p></center> 
@@ -44,11 +44,11 @@ def main():
         if option=='Predict':
             st.success(classify(model.predict(inputs)))
 
-    if st.button("About"):
+    if st.button("ABOUT"):
       st.header("By Hritwick Goyal")
       st.subheader("Intern , The Spark Foundation")
     html_temp = """
-    <div class="" style="background-color:orange;" >
+    <div class="" style="background-color:black;" >
     <div class="clearfix">           
     <div class="col-md-12">
     <center><p style="font-size:20px;color:white;margin-top:10px;">Iris Classifier</p></center> 
